@@ -6,7 +6,7 @@ import { Button, Input, Label, Modal, Surface, TextField, ListBox, Select } from
 export function TaskModal({ createATask }) {
   return (
     <Modal>
-      <Button variant="secondary">Add Task</Button>
+      <Button variant="secondary">Add Task with modal</Button>
       <Modal.Backdrop>
         <Modal.Container placement="auto">
           <Modal.Dialog className="sm:max-w-md">
