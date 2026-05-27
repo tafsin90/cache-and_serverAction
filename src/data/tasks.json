@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Learn Next.js Fetching",
+    "description": "Study fetch(), cache, and revalidate in Next.js",
+    "status": "Pending",
+    "priority": "High",
+    "dueDate": "2026-05-28",
+    "category": "Study"
+  },
+  {
+    "id": 2,
+    "title": "Build Portfolio Homepage",
+    "description": "Create responsive landing page using Next.js and Tailwind",
+    "status": "In Progress",
+    "priority": "Medium",
+    "dueDate": "2026-05-30",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "Practice Linux Commands",
+    "description": "Complete 20 command-line exercises",
+    "status": "Completed",
+    "priority": "Low",
+    "dueDate": "2026-05-25",
+    "category": "Cybersecurity"
+  },
+  {
+    "id": 4,
+    "title": "Solve Regex Problems",
+    "description": "Practice Python re module challenges",
+    "status": "Pending",
+    "priority": "High",
+    "dueDate": "2026-06-01",
+    "category": "Programming"
+  },
+  {
+    "id": 5,
+    "title": "ESP32 RFID Testing",
+    "description": "Test RFID card scan with OLED output",
+    "status": "In Progress",
+    "priority": "High",
+    "dueDate": "2026-06-03",
+    "category": "IoT"
+  }
+]
