@@ -6,7 +6,8 @@ export const getTasks = async() => {
 
 export const postTask = async (newTask) => {
     newTask.id = tasks.length+1;
-    tasks.push(newTask);
+    tasks.unshift(newTask);     // to add at the beginning
+    // tasks.push(newTask);     // to add at the end
 
     return {ok: true, message: 'Task added successfully'};
 }

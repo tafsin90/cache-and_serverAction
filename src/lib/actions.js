@@ -20,5 +20,6 @@ export const createATask = async (formData) => {
   if(res.ok){
     revalidatePath('/tasks')
   }
+  console.log(res)
   return res;
 }
